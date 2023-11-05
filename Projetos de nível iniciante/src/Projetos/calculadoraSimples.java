@@ -28,8 +28,6 @@ public class calculadoraSimples {
 	    Resultado = "-".equals(operacao) ? num1 - num2 : Resultado;
 	    Resultado = "*".equals(operacao) ? num1 * num2 : Resultado;
 	    Resultado = "/".equals(operacao) ? num1 / num2 : Resultado;
-
-		// o Caso nao seja digitado o "-" ele dara falso e por sua vez voltara pra resultado que se caso a operacao for "+" e;eja dara o resultado, do mesmo jeito se for "*" ou "/"
 	    
 	    System.out.printf("%.2f %s %.2f = %.2f ", num1, operacao, num2, Resultado );
 	    
